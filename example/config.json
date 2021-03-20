@@ -1,0 +1,27 @@
+{
+    "mysql" : {
+        "example" : {
+            "master": {
+                "host" : "127.0.0.1",
+                "port" : "3306",
+                "user" : "mytestroot",
+                "password" : "mytestroot",
+                "database" : "example"
+            },
+            "slave01": {
+                "host" : "127.0.0.1",
+                "port" : "3306",
+                "user" : "mytestroot",
+                "password" : "mytestroot",
+                "database" : "example"
+            },
+            "slave02": {
+                "host" : "127.0.0.1",
+                "port" : "3306",
+                "user" : "mytestroot",
+                "password" : "mytestroot",
+                "database" : "example"
+            }
+        }
+    }
+}
