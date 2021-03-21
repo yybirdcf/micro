@@ -2,7 +2,8 @@ package service
 
 import (
 	"fmt"
-	"service/cache"
+
+	"github.com/yybirdcf/micro/service/cache"
 
 	"github.com/micro/go-micro/errors"
 )
