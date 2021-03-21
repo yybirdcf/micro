@@ -8,5 +8,5 @@ require (
 	github.com/jinzhu/gorm v1.9.16
 	github.com/micro/go-micro v1.18.0
 	github.com/micro/go-micro/v2 v2.9.1
-	github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c
+	github.com/yybirdcf/micro/common/algos v0.0.0-20210321070917-4d7acb8543c3
 )

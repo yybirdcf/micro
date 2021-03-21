@@ -57,6 +57,10 @@ func (app *App) registerServiceToApp() {
 		log.Fatal(err)
 	}
 
+	app.ServiceRegister.MemcacheService = service.NewMemcacheService(app.cfg.GetStringMap("memcache"))
+
+	app.ServiceRegister.RedisService = service.NewRedisService(app.cfg.GetStringMap("redis"))
+
 	app.ServiceRegister = serviceRegister
 }
 

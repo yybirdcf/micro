@@ -407,6 +407,9 @@ github.com/xeipuuv/gojsonschema v1.1.0/go.mod h1:5yf86TLmAcydyeJq5YvxkGPE2fm/u4m
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c h1:9x95ymN43SnYgDQlYWMQpFeKG8LdsXUMrItGvyo6YYE=
 github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c/go.mod h1:m5/Zn5gSGpHSEIT8OP+1l6n89POIb37ByHT5xi2dm+c=
+github.com/yybirdcf/micro v0.0.0-20210321065143-516dfd3270c9 h1:m/qBiJnaErVM7qek7Te1fHq9ZP6RQ5/OPN1CElfmlCo=
+github.com/yybirdcf/micro/common/algos v0.0.0-20210321070917-4d7acb8543c3 h1:UauZlYWNpQ+UFv50OhGVSzjW9rfsUdKjgccOHOAkQ/4=
+github.com/yybirdcf/micro/common/algos v0.0.0-20210321070917-4d7acb8543c3/go.mod h1:kOXky9PrQyh7d7ul1DuHaf680LtBrMP+vHSxWGdTswg=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.4/go.mod h1:G5EMThwa9y8QZGBClrRx5EY+Yw9kAhnjy3bSjsnlVTQ=
 go.opencensus.io v0.20.1/go.mod h1:6WKK9ahsWS3RSO+PY9ZHZUfv2irvY6gN279GOPZjmmk=
