@@ -1,8 +1,6 @@
 package service
 
 import (
-	"fmt"
-
 	"github.com/yybirdcf/micro/service/cache"
 
 	"github.com/micro/go-micro/errors"
@@ -34,5 +32,5 @@ func (srv *RedisService) GetServer(name string) (*cache.RedisServer, error) {
 	if server, ok := srv.redisServers[name]; ok {
 		return server, nil
 	}
-	return nil, errors.New("service.redis", fmt.Sprintf("redis server not found: %s", name))
+	return nil, errors.InternalServerError("service.redis", "redis server not found: %s", name)
 }

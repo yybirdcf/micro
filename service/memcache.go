@@ -1,8 +1,6 @@
 package service
 
 import (
-	"fmt"
-
 	"github.com/yybirdcf/micro/service/cache"
 
 	"github.com/micro/go-micro/errors"
@@ -40,5 +38,5 @@ func (srv *MemcacheService) GetServer(name string) (cache.CacheInter, error) {
 		return server, nil
 	}
 
-	return nil, errors.New("service.memcache", fmt.Sprintf("cache server not found: %s", name))
+	return nil, errors.InternalServerError("service.memcache", "cache server not found: %s", name)
 }
