@@ -17,7 +17,7 @@ func (repo *Example) Find(id uint32) (*model.Example, error) {
 	}
 
 	example := &model.Example{}
-	example.ID = uint(id)
+	example.Id = uint(id)
 	if err := db.First(example).Error; err != nil {
 		return nil, err
 	}

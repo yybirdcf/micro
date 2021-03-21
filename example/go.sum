@@ -555,6 +555,8 @@ github.com/yybirdcf/micro/service v0.0.0-20210321055753-8937fb1b3cf2 h1:6riAmUUe
 github.com/yybirdcf/micro/service v0.0.0-20210321055753-8937fb1b3cf2/go.mod h1:WXV+spdb+VXWI6h+eikB/1fHsAYNtoQmnI0BIR3b4LE=
 github.com/yybirdcf/micro/service v0.0.0-20210321062050-e1cf68303f76 h1:+PTUrDImnFWntAv5XOUCzv7Jqhf+4etyDilIEA+wOq8=
 github.com/yybirdcf/micro/service v0.0.0-20210321062050-e1cf68303f76/go.mod h1:WXV+spdb+VXWI6h+eikB/1fHsAYNtoQmnI0BIR3b4LE=
+github.com/yybirdcf/micro/service v0.0.0-20210321065143-516dfd3270c9 h1:TQEh6EftcOSOeicAYfGEQYeh9F/HIkbHvCs37mSnC04=
+github.com/yybirdcf/micro/service v0.0.0-20210321065143-516dfd3270c9/go.mod h1:WXV+spdb+VXWI6h+eikB/1fHsAYNtoQmnI0BIR3b4LE=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.4 h1:hi1bXHMVrlQh6WwxAy+qZCV/SYIlqo+Ushwdpa4tAKg=
