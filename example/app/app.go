@@ -3,8 +3,9 @@ package app
 import (
 	"example/bis"
 	"example/repository"
-	"example/service"
 	"reflect"
+
+	"github.com/yybirdcf/micro/service"
 
 	log "github.com/micro/go-micro/v2/logger"
 
