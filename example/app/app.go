@@ -1,9 +1,10 @@
 package app
 
 import (
-	"example/bis"
-	"example/repository"
 	"reflect"
+
+	"github.com/yybirdcf/micro/example/bis"
+	"github.com/yybirdcf/micro/example/repository"
 
 	"github.com/yybirdcf/micro/service"
 

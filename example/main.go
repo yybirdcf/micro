@@ -1,10 +1,10 @@
 package main
 
 import (
-	"example/app"
-	"example/handler"
-	example "example/proto/example"
-	"example/subscriber"
+	"github.com/yybirdcf/micro/example/app"
+	"github.com/yybirdcf/micro/example/handler"
+	example "github.com/yybirdcf/micro/example/proto/example"
+	"github.com/yybirdcf/micro/example/subscriber"
 
 	"github.com/micro/go-micro/v2"
 	log "github.com/micro/go-micro/v2/logger"

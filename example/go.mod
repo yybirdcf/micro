@@ -1,4 +1,4 @@
-module github.com/yybirdcf/micro/example/v1
+module github.com/yybirdcf/micro/example
 
 go 1.13
 

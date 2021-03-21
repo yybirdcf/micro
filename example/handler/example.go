@@ -5,8 +5,8 @@ import (
 
 	log "github.com/micro/go-micro/v2/logger"
 
-	"example/bis"
-	example "example/proto/example"
+	"github.com/yybirdcf/micro/example/bis"
+	example "github.com/yybirdcf/micro/example/proto/example"
 
 	"github.com/yybirdcf/micro/service"
 )

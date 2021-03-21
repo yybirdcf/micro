@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"example/model"
+	"github.com/yybirdcf/micro/example/model"
 
 	"github.com/micro/go-micro/errors"
 )

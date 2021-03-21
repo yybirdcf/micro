@@ -3,9 +3,10 @@ package bis
 import (
 	"context"
 	"encoding/json"
-	"example/model"
-	"example/repository"
 	"time"
+
+	"github.com/yybirdcf/micro/example/model"
+	"github.com/yybirdcf/micro/example/repository"
 
 	"github.com/yybirdcf/micro/service"
 )
