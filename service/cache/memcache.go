@@ -2,7 +2,8 @@ package cache
 
 import (
 	"fmt"
-	"micro/common/algos"
+
+	"github.com/yybirdcf/micro/common/algos"
 
 	"github.com/micro/go-micro/errors"
 
