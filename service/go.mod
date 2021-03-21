@@ -10,3 +10,5 @@ require (
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/yybirdcf/micro/common/algos v1.0.0
 )
+
+replace github.com/yybirdcf/micro/common/algos => ../common/algos

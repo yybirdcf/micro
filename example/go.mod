@@ -19,3 +19,9 @@ require (
 	github.com/yybirdcf/micro/service v1.0.0
 	google.golang.org/protobuf v1.23.0
 )
+
+replace github.com/yybirdcf/micro/common/algos => ../common/algos
+
+replace github.com/yybirdcf/micro/common/time => ../common/time
+
+replace github.com/yybirdcf/micro/service => ../service

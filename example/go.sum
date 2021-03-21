@@ -552,14 +552,6 @@ github.com/xeipuuv/gojsonschema v0.0.0-20180618132009-1d523034197f/go.mod h1:5yf
 github.com/xeipuuv/gojsonschema v1.1.0/go.mod h1:5yf86TLmAcydyeJq5YvxkGPE2fm/u4myDekKRoLuqhs=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 h1:eY9dn8+vbi4tKz5Qo6v2eYzo7kUS51QINcR5jNpbZS8=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
-github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c h1:9x95ymN43SnYgDQlYWMQpFeKG8LdsXUMrItGvyo6YYE=
-github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c/go.mod h1:m5/Zn5gSGpHSEIT8OP+1l6n89POIb37ByHT5xi2dm+c=
-github.com/yybirdcf/micro/common/algos v0.0.0-20210321070917-4d7acb8543c3 h1:UauZlYWNpQ+UFv50OhGVSzjW9rfsUdKjgccOHOAkQ/4=
-github.com/yybirdcf/micro/common/algos v0.0.0-20210321070917-4d7acb8543c3/go.mod h1:kOXky9PrQyh7d7ul1DuHaf680LtBrMP+vHSxWGdTswg=
-github.com/yybirdcf/micro/common/time v0.0.0-20210321081405-5ce5f0128f0e h1:Of0HiJBQqRbK111Og8wQe6py0UTQsG5zaZRRTFqSW7I=
-github.com/yybirdcf/micro/common/time v0.0.0-20210321081405-5ce5f0128f0e/go.mod h1:X7bYsKxbaMJsADdrUwv4lWRGOKlL2ZEuAGVd3hFulDY=
-github.com/yybirdcf/micro/service v0.0.0-20210321070917-4d7acb8543c3 h1:KIpnTe1emwSJ6a7s3Zo2JwbBHOohD6m9Zq+2HGPjbkQ=
-github.com/yybirdcf/micro/service v0.0.0-20210321070917-4d7acb8543c3/go.mod h1:WXV+spdb+VXWI6h+eikB/1fHsAYNtoQmnI0BIR3b4LE=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.4 h1:hi1bXHMVrlQh6WwxAy+qZCV/SYIlqo+Ushwdpa4tAKg=
