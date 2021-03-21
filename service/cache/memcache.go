@@ -58,7 +58,7 @@ func (m *RingMemcacheServer) node(key string) (*memcache.Client, error) {
 
 	log.Errorf("RingMemcacheServer Get err: memcache node not found %s\n", key)
 
-	return nil, errors.New("memcache node not found")
+	return nil, errors.New("memcache.node", "memcache node not found")
 }
 
 func (m *RingMemcacheServer) Get(key string) ([]byte, error) {
@@ -184,7 +184,7 @@ func (m *KetamaMemcacheServer) node(key string) (*memcache.Client, error) {
 
 	log.Errorf("KetamaMemcacheServer Get err: memcache node not found %s\n", key)
 
-	return nil, errors.New("memcache node not found")
+	return nil, errors.New("memcache.node", "memcache node not found")
 }
 
 func (m *KetamaMemcacheServer) Get(key string) ([]byte, error) {

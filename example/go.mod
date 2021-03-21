@@ -8,12 +8,10 @@ replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
 require (
 	github.com/golang/protobuf v1.4.2
-	github.com/jinzhu/gorm v1.9.16 // indirect
+	github.com/jinzhu/now v1.1.1 // indirect
 	github.com/micro/go-micro v1.18.0
 	github.com/micro/go-micro/v2 v2.9.1
-	github.com/micro/micro/v2 v2.9.3 // indirect
 	github.com/spf13/viper v1.7.1
-	google.golang.org/grpc v1.26.0 // indirect
+	github.com/yybirdcf/micro/service v0.0.0-20210321055753-8937fb1b3cf2
 	google.golang.org/protobuf v1.23.0
-	gorm.io/driver/mysql v1.0.5 // indirect
 )

@@ -40,5 +40,5 @@ func (srv *MemcacheService) GetServer(name string) (cache.CacheInter, error) {
 		return server, nil
 	}
 
-	return nil, errors.New(fmt.Sprintf("cache server not found: %s", name))
+	return nil, errors.New("service.memcache", fmt.Sprintf("cache server not found: %s", name))
 }
