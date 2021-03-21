@@ -1,6 +1,6 @@
 package bis
 
-import "example/model"
+import "github.com/yybirdcf/micro/example/model"
 
 type Example struct {
 	Base
