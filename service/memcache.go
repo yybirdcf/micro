@@ -15,7 +15,8 @@ func NewMemcacheService(srvs map[string]interface{}) *MemcacheService {
 	cacheServers := make(map[string]cache.CacheInter)
 
 	for key, val := range srvs {
-		cacheServers[key] = cache.NewKetamaMemcacheServer(val)
+		v := val.([]map[string]interface{})
+		cacheServers[key] = cache.NewKetamaMemcacheServer(v)
 	}
 
 	return &MemcacheService{

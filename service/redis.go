@@ -14,7 +14,8 @@ type RedisService struct {
 func NewRedisService(srvs map[string]interface{}) *RedisService {
 	redisServers := make(map[string]*cache.RedisServer)
 	for key, val := range srvs {
-		redisServers[key] = cache.NewRedisServer(val)
+		v := val.(map[string]interface{})
+		redisServers[key] = cache.NewRedisServer(v)
 	}
 	return &RedisService{
 		redisServers: redisServers,

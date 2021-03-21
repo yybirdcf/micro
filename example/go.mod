@@ -12,6 +12,6 @@ require (
 	github.com/micro/go-micro v1.18.0
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/spf13/viper v1.7.1
-	github.com/yybirdcf/micro/service v0.0.0-20210321055753-8937fb1b3cf2
+	github.com/yybirdcf/micro/service v0.0.0-20210321062050-e1cf68303f76
 	google.golang.org/protobuf v1.23.0
 )

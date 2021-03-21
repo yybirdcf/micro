@@ -525,7 +525,6 @@ github.com/stretchr/objx v0.1.1/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/objx v0.2.0/go.mod h1:qt09Ya8vawLte6SNmTgCsAVtYtaKzEcn8ATUoHMkEqE=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
-github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/stretchr/testify v1.5.1 h1:nOGnQDM7FYENwehXlg/kFVnos3rEvtKTjRvOWSzb6H4=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
@@ -554,6 +553,8 @@ github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c h1:9x95ymN43SnYgDQl
 github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c/go.mod h1:m5/Zn5gSGpHSEIT8OP+1l6n89POIb37ByHT5xi2dm+c=
 github.com/yybirdcf/micro/service v0.0.0-20210321055753-8937fb1b3cf2 h1:6riAmUUeqJL646queSLP1wdblvbPrPBVtMHGoXeTrn0=
 github.com/yybirdcf/micro/service v0.0.0-20210321055753-8937fb1b3cf2/go.mod h1:WXV+spdb+VXWI6h+eikB/1fHsAYNtoQmnI0BIR3b4LE=
+github.com/yybirdcf/micro/service v0.0.0-20210321062050-e1cf68303f76 h1:+PTUrDImnFWntAv5XOUCzv7Jqhf+4etyDilIEA+wOq8=
+github.com/yybirdcf/micro/service v0.0.0-20210321062050-e1cf68303f76/go.mod h1:WXV+spdb+VXWI6h+eikB/1fHsAYNtoQmnI0BIR3b4LE=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.4 h1:hi1bXHMVrlQh6WwxAy+qZCV/SYIlqo+Ushwdpa4tAKg=
