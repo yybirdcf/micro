@@ -547,6 +547,7 @@ github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca h1:1CFlNzQhALwjS9mB
 github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca/go.mod h1:ce1O1j6UtZfjr22oyGxGLbauSBp2YVXpARAosm7dHBg=
 github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77/go.mod h1:aYKd//L2LvnjZzWKhF00oedf4jCCReLcmhLdhm1A27Q=
 github.com/yybirdcf/micro v0.0.0-20210320061258-6867a96ea934 h1:USKIpnH92UYBpOu7zgKwJ/AIX8EKkhEBEzTA87g9U9w=
+github.com/yybirdcf/micro v0.0.0-20210320091400-5909e7a0a476 h1:HR/ctPmV7Z9eiOd1zlBMwQpQLIXJKuTc2vK9sI3qzlI=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.4 h1:hi1bXHMVrlQh6WwxAy+qZCV/SYIlqo+Ushwdpa4tAKg=

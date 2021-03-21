@@ -1,10 +1,11 @@
 package model
 
-import "github.com/jinzhu/gorm"
-
 type Example struct {
-	gorm.Model
-	Name     string
-	Phone    string `gorm:"type:char(11);`
-	Password string
+	Name     NullString `json:"name" gorm:"column:name;`
+	Phone    NullString `json:"phone" gorm:"type:char(11);column:phone;`
+	Password NullString `json:"password" gorm:"column:password;`
+}
+
+func (m Example) TableName() string {
+	return "example"
 }

@@ -1,6 +1,6 @@
 package repository
 
-import "example/service"
+import "github.com/yybirdcf/micro/service"
 
 type Base struct {
 	serviceRegister *service.Register

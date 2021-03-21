@@ -7,7 +7,8 @@ import (
 
 	"example/bis"
 	example "example/proto/example"
-	"example/service"
+
+	"github.com/yybirdcf/micro/service"
 )
 
 type Example struct {
