@@ -213,6 +213,8 @@ github.com/google/pprof v0.0.0-20190515194954-54271f7e092f/go.mod h1:zfwlbNMJ+OI
 github.com/google/renameio v0.1.0/go.mod h1:KWCgfxg9yswjAJkECMjeO8J8rahYeXnNhOm40UhjYkI=
 github.com/google/uuid v1.1.1 h1:Gkbcsh/GbpXz7lPftLA3P6TYMwjCLYm83jiFQZF/3gY=
 github.com/google/uuid v1.1.1/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/google/uuid v1.2.0 h1:qJYtXnJRWmpe7m/3XlyhrsLrEURqHRM2kxzoxXqyUDs=
+github.com/google/uuid v1.2.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/googleapis/gax-go/v2 v2.0.4/go.mod h1:0Wqv26UfaUD9n4G6kQubkQ+KchISgw+vpHVxEJEs9eg=
 github.com/googleapis/gax-go/v2 v2.0.5/go.mod h1:DWXyrwAJ9X0FpwwEdw+IPEYBICEFu5mhpdKc/us6bOk=
 github.com/gophercloud/gophercloud v0.3.0/go.mod h1:vxM41WHh5uqHVBMZHzuwNOHh8XEoIEcSTewFxm1c5g8=
@@ -266,6 +268,8 @@ github.com/imdario/mergo v0.3.9/go.mod h1:2EnlNZ0deacrJVfApfmtdGgDfMuh/nq6Ok1EcJ
 github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 h1:BQSFePA1RWJOlocH6Fxy8MmwDt+yVQYULKfN0RoTN8A=
 github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99/go.mod h1:1lJo3i6rXxKeerYnT8Nvf0QmHCRC1n8sfWVwXF2Frvo=
 github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJSGM75WSRxI=
+github.com/jinzhu/copier v0.2.8 h1:N8MbL5niMwE3P4dOwurJixz5rMkKfujmMRFmAanSzWE=
+github.com/jinzhu/copier v0.2.8/go.mod h1:24xnZezI2Yqac9J61UC6/dG/k76ttpq0DdJI3QmUvro=
 github.com/jinzhu/gorm v1.9.16 h1:+IyIjPEABKRpsu/F8OvDPy9fyQlgsg2luMV2ZIH5i5o=
 github.com/jinzhu/gorm v1.9.16/go.mod h1:G3LB3wezTOWM2ITLzPxEXgSkOXAntiLHS7UdBefADcs=
 github.com/jinzhu/inflection v1.0.0 h1:K317FqzuhWc8YvSVlFMCCUb36O/S9MCKRDI7QkRKD/E=
@@ -501,8 +505,15 @@ github.com/xeipuuv/gojsonschema v1.1.0/go.mod h1:5yf86TLmAcydyeJq5YvxkGPE2fm/u4m
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c h1:9x95ymN43SnYgDQlYWMQpFeKG8LdsXUMrItGvyo6YYE=
 github.com/yybirdcf/micro v0.0.0-20210321052434-0e42ef8cff7c/go.mod h1:m5/Zn5gSGpHSEIT8OP+1l6n89POIb37ByHT5xi2dm+c=
+github.com/yybirdcf/micro v0.0.0-20210321065143-516dfd3270c9 h1:m/qBiJnaErVM7qek7Te1fHq9ZP6RQ5/OPN1CElfmlCo=
+github.com/yybirdcf/micro v0.0.0-20210321065143-516dfd3270c9/go.mod h1:m5/Zn5gSGpHSEIT8OP+1l6n89POIb37ByHT5xi2dm+c=
+github.com/yybirdcf/micro v0.0.0-20210321072846-84c2d8ca0fd7 h1:UQpjU811WDTAQdlIDOW70cwn6WZJguAzZD1RKpzlwJA=
+github.com/yybirdcf/micro/common/algos v0.0.0-20210321070917-4d7acb8543c3 h1:UauZlYWNpQ+UFv50OhGVSzjW9rfsUdKjgccOHOAkQ/4=
+github.com/yybirdcf/micro/common/algos v0.0.0-20210321070917-4d7acb8543c3/go.mod h1:kOXky9PrQyh7d7ul1DuHaf680LtBrMP+vHSxWGdTswg=
 github.com/yybirdcf/micro/service v0.0.0-20210321065143-516dfd3270c9 h1:TQEh6EftcOSOeicAYfGEQYeh9F/HIkbHvCs37mSnC04=
 github.com/yybirdcf/micro/service v0.0.0-20210321065143-516dfd3270c9/go.mod h1:WXV+spdb+VXWI6h+eikB/1fHsAYNtoQmnI0BIR3b4LE=
+github.com/yybirdcf/micro/service v0.0.0-20210321070917-4d7acb8543c3 h1:KIpnTe1emwSJ6a7s3Zo2JwbBHOohD6m9Zq+2HGPjbkQ=
+github.com/yybirdcf/micro/service v0.0.0-20210321070917-4d7acb8543c3/go.mod h1:WXV+spdb+VXWI6h+eikB/1fHsAYNtoQmnI0BIR3b4LE=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.4/go.mod h1:G5EMThwa9y8QZGBClrRx5EY+Yw9kAhnjy3bSjsnlVTQ=

@@ -9,8 +9,11 @@ import (
 	"github.com/yybirdcf/micro/example/repository"
 	"github.com/yybirdcf/micro/service/cache"
 
+	"github.com/jinzhu/copier"
+	"github.com/micro/go-micro/v2/errors"
 	log "github.com/micro/go-micro/v2/logger"
 	"github.com/yybirdcf/micro/common/algos"
+	time2 "github.com/yybirdcf/micro/common/time"
 	"github.com/yybirdcf/micro/service"
 )
 
@@ -26,7 +29,7 @@ func (ins *Base) InitIns(serviceRegister *service.Register, repositoryRegister *
 	ins.bisRegister = bisRegister
 }
 
-func (c *Base) setCache(ctx context.Context, key string, data interface{}, ttl time.Duration) bool {
+func (c *Base) setCache(key string, data interface{}, ttl time.Duration) bool {
 	if c.serviceRegister.MemcacheService == nil {
 		return true
 	}
@@ -53,10 +56,10 @@ func (c *Base) setCache(ctx context.Context, key string, data interface{}, ttl t
 }
 
 //尝试从缓存里面获取数据，否则从方法里面获取数据并存入缓存，增加了防止缓存穿透，或者缓存击穿，以及缓存雪崩的能力
-func (c *Base) getCacheWithDao(ctx context.Context, key string, ttl time.Duration, randTtl bool, daoFunc func() (model.Model, error), data model.Model, err error) {
+func (c *Base) getCacheWithDao(key string, ttl time.Duration, randTtl bool, daoFunc func() (model.Model, error), data model.Model, err error) {
 	if algos.CacheFilterIns.Exist(key) {
 		//防止对数据服务穿透
-		err = util.ErrNoRows
+		err = errors.NotFound("cache.notfound", "cache filter found %s", key)
 		return
 	}
 
@@ -100,7 +103,7 @@ func (c *Base) getCacheWithDao(ctx context.Context, key string, ttl time.Duratio
 	ret, err := daoFunc()
 	if err != nil {
 		//如果访问后端数据服务出现没有数据错误，增加防止缓存穿透能力，避免对数据服务产生攻击
-		if err == util.ErrNoRows {
+		if errors.FromError(err).Code == 404 {
 			algos.CacheFilterIns.Set(key, "")
 		}
 		return
@@ -121,7 +124,7 @@ func (c *Base) getCacheWithDao(ctx context.Context, key string, ttl time.Duratio
 func (c *Base) getCacheListWithDao(ctx context.Context, key string, ttl time.Duration, randTtl bool, daoFunc func() ([]model.Model, error), data interface{}, err error) {
 	if algos.CacheFilterIns.Exist(key) {
 		//防止对数据服务穿透
-		err = util.ErrNoRows
+		err = errors.NotFound("cache.notfound", "cache filter found %s", key)
 		return
 	}
 
@@ -170,7 +173,7 @@ func (c *Base) getCacheListWithDao(ctx context.Context, key string, ttl time.Dur
 	ret, err := daoFunc()
 	if err != nil {
 		//如果访问后端数据服务出现没有数据错误，增加防止缓存穿透能力，避免对数据服务产生攻击
-		if err == util.ErrNoRows {
+		if errors.FromError(err).Code == 404 {
 			algos.CacheFilterIns.Set(key, "")
 		}
 		return
@@ -196,7 +199,7 @@ func (c *Base) getCacheListWithDao(ctx context.Context, key string, ttl time.Dur
 	return
 }
 
-func (c *Base) cleanCache(ctx context.Context, key string) error {
+func (c *Base) cleanCache(key string) error {
 	if c.serviceRegister.MemcacheService == nil {
 		return nil
 	}
