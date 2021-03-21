@@ -14,8 +14,8 @@ require (
 	github.com/micro/go-micro v1.18.0
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/spf13/viper v1.7.1
-	github.com/yybirdcf/micro/common/algos v0.0.0-20210321070917-4d7acb8543c3 // indirect
-	github.com/yybirdcf/micro/common/time v0.0.0-20210321081405-5ce5f0128f0e
-	github.com/yybirdcf/micro/service v0.0.0-20210321070917-4d7acb8543c3
+	github.com/yybirdcf/micro/common/algos v1.0.0
+	github.com/yybirdcf/micro/common/time v1.0.0
+	github.com/yybirdcf/micro/service v1.0.0
 	google.golang.org/protobuf v1.23.0
 )
