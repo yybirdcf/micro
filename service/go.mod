@@ -1,4 +1,4 @@
-module service
+module github.com/yybirdcf/micro/service/v1
 
 go 1.13
 
